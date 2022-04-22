@@ -3,10 +3,14 @@ name = "sharpy-addons"
 version = "0.1.0"
 description = ""
 authors = ["Raoni Campos <ratosh@gmail.com>"]
+packages = [
+    { include = "src/**/*.py" },
+]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-burnysc2 = {git = "https://github.com/BurnySc2/python-sc2.git"}
+python = "~3.8"
+sc2 = {git = "https://github.com/BurnySc2/python-sc2.git", rev = "53fd67a" }
+sharpy = {git = "https://github.com/ratosh/sharpy-sc2.git", rev = "e602f7a" }
 
 [tool.poetry.dev-dependencies]
 atomicwrites = "^1.4.0"
