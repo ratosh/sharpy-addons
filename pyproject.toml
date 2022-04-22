@@ -9,8 +9,8 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "~3.8"
-sc2 = {git = "https://github.com/BurnySc2/python-sc2.git", rev = "53fd67a" }
-sharpy = {git = "https://github.com/ratosh/sharpy-sc2.git", rev = "e602f7a" }
+burnysc2 = {git = "https://github.com/BurnySc2/python-sc2.git", rev = "53fd67a" }
+sharpy-sc2 = {git = "https://github.com/ratosh/sharpy-sc2.git", rev = "e602f7a" }
 
 [tool.poetry.dev-dependencies]
 atomicwrites = "^1.4.0"
